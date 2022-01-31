@@ -1,0 +1,69 @@
+{
+  "props": [
+    {
+      "name": "Bonsai - Gray",
+      "type": "color",
+      "value": "#ADADAD",
+      "category": "color",
+      "meta": {
+        "projectId": "ujjYdWMUfC69RDjGJ3P7gT",
+        "id": "2Z7q7C1NJ"
+      }
+    },
+    {
+      "name": "Dark",
+      "type": "color",
+      "value": "#1A1A1A",
+      "category": "color",
+      "meta": {
+        "projectId": "ujjYdWMUfC69RDjGJ3P7gT",
+        "id": "IsaEn6juH"
+      }
+    },
+    {
+      "name": "Dark green",
+      "type": "color",
+      "value": "#7FAF56",
+      "category": "color",
+      "meta": {
+        "projectId": "ujjYdWMUfC69RDjGJ3P7gT",
+        "id": "oJom6_c9L"
+      }
+    },
+    {
+      "name": "Light green",
+      "type": "color",
+      "value": "#B0D361",
+      "category": "color",
+      "meta": {
+        "projectId": "ujjYdWMUfC69RDjGJ3P7gT",
+        "id": "YWI7eSXkn"
+      }
+    },
+    {
+      "name": "cornerRadius",
+      "type": "spacing",
+      "value": "0.01in",
+      "category": "spacing",
+      "meta": {
+        "projectId": "ujjYdWMUfC69RDjGJ3P7gT",
+        "id": "YZMURfAPb"
+      }
+    },
+    {
+      "name": "padding",
+      "type": "spacing",
+      "value": "0.1in",
+      "category": "spacing",
+      "meta": {
+        "projectId": "ujjYdWMUfC69RDjGJ3P7gT",
+        "id": "1lxtA8FlS"
+      }
+    }
+  ],
+  "global": {
+    "meta": {
+      "source": "plasmic.app"
+    }
+  }
+}

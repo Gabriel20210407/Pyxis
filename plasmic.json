@@ -1,0 +1,248 @@
+{
+  "platform": "nextjs",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "public-files",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "ujjYdWMUfC69RDjGJ3P7gT",
+      "projectApiToken": "LZtPrjvagx7HC3MIA0ZPvY3h1ptpJZ25T4AWHLYy5kcG7ncsrTShx7VqBuURPe6qG7jMnMAK4hAbuAg9vlQ",
+      "projectName": "Pyxis",
+      "version": "latest",
+      "cssFilePath": "plasmic/pyxis/plasmic_pyxis.module.css",
+      "components": [
+        {
+          "id": "DJPEr2rjr-",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "ujjYdWMUfC69RDjGJ3P7gT",
+          "renderModuleFilePath": "plasmic/pyxis/PlasmicHomepage.tsx",
+          "importSpec": {
+            "modulePath": "../pages/index.tsx"
+          },
+          "cssFilePath": "plasmic/pyxis/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "JMDo9WR11mn",
+          "name": "Switch",
+          "type": "managed",
+          "projectId": "ujjYdWMUfC69RDjGJ3P7gT",
+          "renderModuleFilePath": "plasmic/pyxis/PlasmicSwitch.tsx",
+          "importSpec": {
+            "modulePath": "Switch.tsx"
+          },
+          "cssFilePath": "plasmic/pyxis/PlasmicSwitch.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "switch"
+        },
+        {
+          "id": "aY8ysst3jje",
+          "name": "Select",
+          "type": "managed",
+          "projectId": "ujjYdWMUfC69RDjGJ3P7gT",
+          "renderModuleFilePath": "plasmic/pyxis/PlasmicSelect.tsx",
+          "importSpec": {
+            "modulePath": "Select.tsx"
+          },
+          "cssFilePath": "plasmic/pyxis/PlasmicSelect.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "select"
+        },
+        {
+          "id": "N2R21VwUsi2",
+          "name": "Select__Option",
+          "type": "managed",
+          "projectId": "ujjYdWMUfC69RDjGJ3P7gT",
+          "renderModuleFilePath": "plasmic/pyxis/PlasmicSelect__Option.tsx",
+          "importSpec": {
+            "modulePath": "Select__Option.tsx"
+          },
+          "cssFilePath": "plasmic/pyxis/PlasmicSelect__Option.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "select-option"
+        },
+        {
+          "id": "kx5NwH8Zc5J",
+          "name": "Select__OptionGroup",
+          "type": "managed",
+          "projectId": "ujjYdWMUfC69RDjGJ3P7gT",
+          "renderModuleFilePath": "plasmic/pyxis/PlasmicSelect__OptionGroup.tsx",
+          "importSpec": {
+            "modulePath": "Select__OptionGroup.tsx"
+          },
+          "cssFilePath": "plasmic/pyxis/PlasmicSelect__OptionGroup.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "select-option-group"
+        },
+        {
+          "id": "dsvCyR9cW7T",
+          "name": "Select__Overlay",
+          "type": "managed",
+          "projectId": "ujjYdWMUfC69RDjGJ3P7gT",
+          "renderModuleFilePath": "plasmic/pyxis/PlasmicSelect__Overlay.tsx",
+          "importSpec": {
+            "modulePath": "Select__Overlay.tsx"
+          },
+          "cssFilePath": "plasmic/pyxis/PlasmicSelect__Overlay.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "triggered-overlay"
+        },
+        {
+          "id": "IhqKTaKPhj",
+          "name": "App",
+          "type": "managed",
+          "projectId": "ujjYdWMUfC69RDjGJ3P7gT",
+          "renderModuleFilePath": "plasmic/pyxis/PlasmicApp.tsx",
+          "importSpec": {
+            "modulePath": "../pages/app.tsx"
+          },
+          "cssFilePath": "plasmic/pyxis/PlasmicApp.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "9S3piU8qHY8",
+          "name": "Button",
+          "type": "managed",
+          "projectId": "ujjYdWMUfC69RDjGJ3P7gT",
+          "renderModuleFilePath": "plasmic/pyxis/PlasmicButton.tsx",
+          "importSpec": {
+            "modulePath": "Button.tsx"
+          },
+          "cssFilePath": "plasmic/pyxis/PlasmicButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
+        },
+        {
+          "id": "FQfuE_bu4a6",
+          "name": "Checkbox",
+          "type": "managed",
+          "projectId": "ujjYdWMUfC69RDjGJ3P7gT",
+          "renderModuleFilePath": "plasmic/pyxis/PlasmicCheckbox.tsx",
+          "importSpec": {
+            "modulePath": "Checkbox.tsx"
+          },
+          "cssFilePath": "plasmic/pyxis/PlasmicCheckbox.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "checkbox"
+        }
+      ],
+      "icons": [
+        {
+          "id": "Id3DcN8sRuT",
+          "name": "IconIcon",
+          "moduleFilePath": "plasmic/pyxis/icons/PlasmicIcon__Icon.tsx"
+        },
+        {
+          "id": "Uw9-uvLjKv8",
+          "name": "Icon2Icon",
+          "moduleFilePath": "plasmic/pyxis/icons/PlasmicIcon__Icon2.tsx"
+        },
+        {
+          "id": "hdM95WqdRCh",
+          "name": "SquaresvgIcon",
+          "moduleFilePath": "plasmic/pyxis/icons/PlasmicIcon__Squaresvg.tsx"
+        },
+        {
+          "id": "xrMxc5POmZ-",
+          "name": "SquareCheckFilledsvgIcon",
+          "moduleFilePath": "plasmic/pyxis/icons/PlasmicIcon__SquareCheckFilledsvg.tsx"
+        },
+        {
+          "id": "Rf5v-YEDGCZ",
+          "name": "SquareMinussvgIcon",
+          "moduleFilePath": "plasmic/pyxis/icons/PlasmicIcon__SquareMinussvg.tsx"
+        },
+        {
+          "id": "Ov0omtaDLNI",
+          "name": "ChevronDownsvgIcon",
+          "moduleFilePath": "plasmic/pyxis/icons/PlasmicIcon__ChevronDownsvg.tsx"
+        },
+        {
+          "id": "FjbSosPPk1e",
+          "name": "ChevronUpsvgIcon",
+          "moduleFilePath": "plasmic/pyxis/icons/PlasmicIcon__ChevronUpsvg.tsx"
+        },
+        {
+          "id": "yoLHiFnzx3K",
+          "name": "ChecksvgIcon",
+          "moduleFilePath": "plasmic/pyxis/icons/PlasmicIcon__Checksvg.tsx"
+        },
+        {
+          "id": "D3fPqfO2CRl",
+          "name": "Icon3Icon",
+          "moduleFilePath": "plasmic/pyxis/icons/PlasmicIcon__Icon3.tsx"
+        },
+        {
+          "id": "EPYX2Wrt5",
+          "name": "TimeBarIcon",
+          "moduleFilePath": "plasmic/pyxis/icons/PlasmicIcon__TimeBar.tsx"
+        },
+        {
+          "id": "emdl2zFGL",
+          "name": "MergeIcon",
+          "moduleFilePath": "plasmic/pyxis/icons/PlasmicIcon__Merge.tsx"
+        },
+        {
+          "id": "rE-ItDvC1b",
+          "name": "FilterIcon",
+          "moduleFilePath": "plasmic/pyxis/icons/PlasmicIcon__Filter.tsx"
+        },
+        {
+          "id": "DC-l7hdPE",
+          "name": "SplitIcon",
+          "moduleFilePath": "plasmic/pyxis/icons/PlasmicIcon__Split.tsx"
+        },
+        {
+          "id": "Oh3QK7JZTP",
+          "name": "TapesvgIcon",
+          "moduleFilePath": "plasmic/pyxis/icons/PlasmicIcon__Tapesvg.tsx"
+        }
+      ],
+      "images": [],
+      "indirect": false,
+      "codeComponents": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "p0F0l8XmfMu",
+        "name": "Screen",
+        "projectId": "ujjYdWMUfC69RDjGJ3P7gT",
+        "contextFilePath": "plasmic/pyxis/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "nextjsConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.167",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.167/dist/plasmic.schema.json"
+}
